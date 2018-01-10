@@ -34,7 +34,7 @@ public class Light {
     }
 
     /**
-     * To
+     * To turn off the light
      */
     public void turnOnTheLight(){
         System.out.println("Light class --> Turn on the light");

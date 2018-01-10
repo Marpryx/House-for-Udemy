@@ -16,6 +16,10 @@ public class Window {
         this.hasCurtains = hasCurtains;
     }
 
+    /**
+     * Getters for the Window class
+     * @return
+     */
     public int getNumberOfWindows() {
         return numberOfWindows;
     }
@@ -24,6 +28,9 @@ public class Window {
         return hasCurtains;
     }
 
+    /**
+     * To close the window
+     */
     public void closeTheWindow(){
         System.out.println("Window class --> Close the window");
     }

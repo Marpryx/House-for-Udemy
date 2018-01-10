@@ -19,6 +19,10 @@ public class Floor {
         this.width = width;
     }
 
+    /**
+     * Getters for the Floor class
+     * @return
+     */
     public String getType() {
         return type;
     }

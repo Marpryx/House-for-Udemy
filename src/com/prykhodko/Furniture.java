@@ -18,6 +18,10 @@ public class Furniture {
         this.size = size;
     }
 
+    /**
+     * Getters for the Furniture class
+     * @return
+     */
     public String getName() {
         return name;
     }
@@ -34,6 +38,9 @@ public class Furniture {
         return size;
     }
 
+    /**
+     * Moves the furniture
+     */
     public void move(){
         System.out.println("Furniture class --> Move the furniture");
     }
